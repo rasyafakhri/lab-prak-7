@@ -135,17 +135,17 @@ Lab7Web_PHP/
 
 | No | Kegiatan | Nama File | Deskripsi |
 | :--- | :--- | :--- | :--- |
-| 1 | Latihan 1: Menjalankan PHP | `img/latihan1.png` | Output `echo` dan `date()` waktu server |
-| 2 | Latihan 2: Variabel & Logika | `img/latihan2.png` | Perhitungan nilai akhir, predikat, & rata-rata |
-| 3 | Latihan 3: Array & Foreach | `img/latihan3.png` | Daftar 7 nama mahasiswa |
-| 4 | Latihan 4: Function | `img/latihan4.png` | Output diskon, format Rupiah, luas, kelulusan |
-| 5 | Latihan 5: Form GET & Search | `img/latihan5_get.png` | Form pencarian & hasil filter array |
-| 6 | Latihan 6: Form POST | `img/latihan6_post.png` | Input nama/prodi & hasil validasi |
-| 7 | Latihan 7: Transaksi Barang | `img/latihan7.png` | Form barang & ringkasan subtotal |
-| 8 | Mini Project: Form Kosong | `img/mini_project_form.png` | Tampilan awal form mahasiswa |
-| 9 | Mini Project: Valid (Sukses) | `img/mini_project_valid.png` | Kartu ringkasan data + timestamp DB |
-| 10 | Mini Project: Invalid (Error) | `img/mini_project_invalid.png` | Kotak error merah muda + inline feedback |
-| 11 | Database: Tabel Mahasiswa | `img/database_table.png` | phpMyAdmin/HeidiSQL दिखा data masuk tabel |
+| 1 | Latihan 1: Menjalankan PHP | `img/1.png` | Output `echo` dan `date()` waktu server |
+| 2 | Latihan 2: Variabel & Logika | `img/2.png` | Perhitungan nilai akhir, predikat, & rata-rata |
+| 3 | Latihan 3: Array & Foreach | `img/3.png` | Daftar 7 nama mahasiswa |
+| 4 | Latihan 4: Function | `img/4.png` | Output diskon, format Rupiah, luas, kelulusan |
+| 5 | Latihan 5: Form GET & Search | `img/5.png` | Form pencarian & hasil filter array |
+| 6 | Latihan 6: Form POST | `img/6.png` | Input nama/prodi & hasil validasi |
+| 7 | Latihan 7: Transaksi Barang | `img/7.png` | Form barang & ringkasan subtotal |
+| 8 | Mini Project: Form Kosong | `img/8.png` | Tampilan awal form mahasiswa |
+| 9 | Mini Project: Valid (Sukses) | `img/9.png` | Kartu ringkasan data + timestamp DB |
+| 10 | Mini Project: Invalid (Error) | `img/10.png` | Kotak error merah muda + inline feedback |
+| 11 | Database: Tabel Mahasiswa | `img/11.png` | phpMyAdmin/HeidiSQL दिखा data masuk tabel |
 
 ---
 
