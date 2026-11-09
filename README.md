@@ -6,6 +6,14 @@
 
 ---
 
+## 👤 Identitas Mahasiswa
+| Data | Keterangan |
+| :--- | :--- |
+| **Nama** | **Rasya Fakhri Akbar** |
+| **NIM** | **312310626** |
+
+---
+
 ## A. Tujuan Praktikum
 1. Memahami perbedaan mendasar antara pemrosesan *client-side* dan *server-side*.
 2. Mengenali sintaks dasar PHP dan menjalankan file PHP melalui server web lokal (Laragon / XAMPP).
@@ -37,17 +45,29 @@
 ## D. Struktur File Proyek
 ```text
 Lab7Web_PHP/
-├── index.php           # Halaman portal dashboard praktikum
-├── latihan1.php        # Latihan 1: Eksekusi PHP dasar & waktu server
-├── latihan2.php        # Latihan 2: Variabel, operator, perhitungan grade nilai
-├── latihan3.php        # Latihan 3: Array dan perulangan foreach
-├── latihan4.php        # Latihan 4: Custom function, diskon, format rupiah
-├── latihan5_get.php    # Latihan 5: Pengiriman data form metode GET & pencarian
-├── latihan6_post.php   # Latihan 6: Pengiriman data form metode POST
-├── latihan7.php        # Latihan 7: Pengolahan transaksi belanja & validasi numerik
-├── mini_project.php    # Mini Project: Form Data Mahasiswa (Validasi Server-Side Lengkap)
-├── mahasiswa.sql       # Skema database MySQL & tabel mahasiswa
-└── README.md           # Laporan dokumentasi praktikum dan jawaban evaluasi
+├── img/                    # Folder screenshot dokumentasi (WAJIB DIISI USER)
+│   ├── latihan1.png
+│   ├── latihan2.png
+│   ├── latihan3.png
+│   ├── latihan4.png
+│   ├── latihan5_get.png
+│   ├── latihan6_post.png
+│   ├── latihan7.png
+│   ├── mini_project_form.png
+│   ├── mini_project_valid.png
+│   ├── mini_project_invalid.png
+│   └── database_table.png
+├── index.php               # Halaman portal dashboard praktikum
+├── latihan1.php            # Latihan 1: Eksekusi PHP dasar & waktu server
+├── latihan2.php            # Latihan 2: Variabel, operator, perhitungan grade nilai
+├── latihan3.php            # Latihan 3: Array dan perulangan foreach
+├── latihan4.php            # Latihan 4: Custom function, diskon, format rupiah
+├── latihan5_get.php        # Latihan 5: Pengiriman data form metode GET & pencarian
+├── latihan6_post.php       # Latihan 6: Pengiriman data form metode POST
+├── latihan7.php            # Latihan 7: Pengolahan transaksi belanja & validasi numerik
+├── mini_project.php        # Mini Project: Form Data Mahasiswa (Validasi Server-Side Lengkap)
+├── mahasiswa.sql           # Skema database MySQL & tabel mahasiswa
+└── README.md               # Laporan dokumentasi praktikum dan jawaban evaluasi
 ```
 
 ---
@@ -109,7 +129,27 @@ Lab7Web_PHP/
 
 ---
 
-## G. Jawaban Pertanyaan Evaluasi Modul
+## H. Dokumentasi Screenshot (Bukti Output)
+
+> **⚠️ CATATAN PENTING:** Anda **HARUS** mengambil screenshot sendiri dari browser dan menyimpannya di folder `img/` sesuai nama file di bawah ini. File gambar **tidak ikut ter-generate otomatis** oleh kode PHP.
+
+| No | Kegiatan | Nama File | Deskripsi |
+| :--- | :--- | :--- | :--- |
+| 1 | Latihan 1: Menjalankan PHP | `img/latihan1.png` | Output `echo` dan `date()` waktu server |
+| 2 | Latihan 2: Variabel & Logika | `img/latihan2.png` | Perhitungan nilai akhir, predikat, & rata-rata |
+| 3 | Latihan 3: Array & Foreach | `img/latihan3.png` | Daftar 7 nama mahasiswa |
+| 4 | Latihan 4: Function | `img/latihan4.png` | Output diskon, format Rupiah, luas, kelulusan |
+| 5 | Latihan 5: Form GET & Search | `img/latihan5_get.png` | Form pencarian & hasil filter array |
+| 6 | Latihan 6: Form POST | `img/latihan6_post.png` | Input nama/prodi & hasil validasi |
+| 7 | Latihan 7: Transaksi Barang | `img/latihan7.png` | Form barang & ringkasan subtotal |
+| 8 | Mini Project: Form Kosong | `img/mini_project_form.png` | Tampilan awal form mahasiswa |
+| 9 | Mini Project: Valid (Sukses) | `img/mini_project_valid.png` | Kartu ringkasan data + timestamp DB |
+| 10 | Mini Project: Invalid (Error) | `img/mini_project_invalid.png` | Kotak error merah muda + inline feedback |
+| 11 | Database: Tabel Mahasiswa | `img/database_table.png` | phpMyAdmin/HeidiSQL दिखा data masuk tabel |
+
+---
+
+## I. Jawaban Pertanyaan Evaluasi Modul
 
 1. **Apa perbedaan pemrosesan client-side dan server-side?**  
    *Jawaban:*  
