@@ -129,23 +129,53 @@ Lab7Web_PHP/
 
 ---
 
-## H. Dokumentasi Screenshot (Bukti Output)
+## H. Dokumentasi Screenshot (Visualisasi Output)
 
-> **⚠️ CATATAN PENTING:** Anda **HARUS** mengambil screenshot sendiri dari browser dan menyimpannya di folder `img/` sesuai nama file di bawah ini. File gambar **tidak ikut ter-generate otomatis** oleh kode PHP.
+Berikut adalah bukti visual hasil eksekusi setiap latihan dan mini project yang telah diimplementasikan. Screenshot diambil dari browser (localhost) dan database client (phpMyAdmin/HeidiSQL).
 
-| No | Kegiatan | Nama File | Deskripsi |
-| :--- | :--- | :--- | :--- |
-| 1 | Latihan 1: Menjalankan PHP | `img/1.png` | Output `echo` dan `date()` waktu server |
-| 2 | Latihan 2: Variabel & Logika | `img/2.png` | Perhitungan nilai akhir, predikat, & rata-rata |
-| 3 | Latihan 3: Array & Foreach | `img/3.png` | Daftar 7 nama mahasiswa |
-| 4 | Latihan 4: Function | `img/4.png` | Output diskon, format Rupiah, luas, kelulusan |
-| 5 | Latihan 5: Form GET & Search | `img/5.png` | Form pencarian & hasil filter array |
-| 6 | Latihan 6: Form POST | `img/6.png` | Input nama/prodi & hasil validasi |
-| 7 | Latihan 7: Transaksi Barang | `img/7.png` | Form barang & ringkasan subtotal |
-| 8 | Mini Project: Form Kosong | `img/8.png` | Tampilan awal form mahasiswa |
-| 9 | Mini Project: Valid (Sukses) | `img/9.png` | Kartu ringkasan data + timestamp DB |
-| 10 | Mini Project: Invalid (Error) | `img/10.png` | Kotak error merah muda + inline feedback |
-| 11 | Database: Tabel Mahasiswa | `img/11.png` | phpMyAdmin/HeidiSQL दिखा data masuk tabel |
+### 1. Latihan 1: Menjalankan PHP
+Menampilkan output `echo` dan waktu server real-time menggunakan `date()`.
+![Latihan 1 - Menjalankan PHP](img/1.png)
+
+### 2. Latihan 2: Variabel, Operator & Percabangan
+Perhitungan nilai akhir terbobot (Tugas 30%, UTS 30%, UAS 40%), penentuan predikat (A-D), serta **Eksperimen Mandiri 1: Rata-rata 3 komponen**.
+![Latihan 2 - Variabel & Logika](img/2.png)
+
+### 3. Latihan 3: Array & Perulangan
+Menampilkan daftar 7 nama mahasiswa menggunakan array dan perulangan `foreach`.
+![Latihan 3 - Array & Foreach](img/3.png)
+
+### 4. Latihan 4: Custom Function
+Implementasi function `hitungDiskon`, **Eksperimen Mandiri 3: `formatRupiah`**, serta function tambahan luas persegi panjang dan cek kelulusan.
+![Latihan 4 - Custom Function](img/4.png)
+
+### 5. Latihan 5: Form Metode GET & Pencarian
+Form pencarian nama mahasiswa menggunakan method GET. **Eksperimen Mandiri 2: Pencarian array** dengan `array_filter` & `stripos`.
+![Latihan 5 - Form GET & Search](img/5.png)
+
+### 6. Latihan 6: Form Metode POST
+Pengiriman data nama dan program studi via POST dengan validasi required dan output `htmlspecialchars`.
+![Latihan 6 - Form POST](img/6.png)
+
+### 7. Latihan 7: Pengolahan Data Transaksi
+Form input barang, harga, jumlah. Validasi server-side numerik dan perhitungan subtotal otomatis.
+![Latihan 7 - Transaksi Barang](img/7.png)
+
+### 8. Mini Project: Form Input Data Mahasiswa (Tampilan Awal)
+Form lengkap dengan field: Nama, NIM (validasi 9 digit), Program Studi, Semester (1-14), Email. UI responsif & aksesibel (ARIA).
+![Mini Project - Form Input](img/8.png)
+
+### 9. Mini Project: Validasi Sukses & Ringkasan Data
+Data valid (NIM 9 digit angka, Semester 1-14, Email valid) → Tersimpan ke **Database MySQL (PDO Prepared Statement)** → Ditampilkan kartu ringkasan dengan `htmlspecialchars` & timestamp server.
+![Mini Project - Valid Sukses](img/9.png)
+
+### 10. Mini Project: Validasi Error (Server-Side)
+Input tidak valid (NIM bukan angka/kurang digit, Semester 0/16, Email salah format, field kosong) → Muncul **Alert merah muda** (summary) + **Inline feedback merah** per field (aksesibel `aria-invalid`, `aria-describedby`).
+![Mini Project - Validasi Error](img/10.png)
+
+### 11. Database: Tabel `mahasiswa` (phpMyAdmin / HeidiSQL)
+Bukti data berhasil tersimpan ke tabel `mahasiswa` di database `praktikum7_db`. Kolom `nim` & `email` bersifat `UNIQUE`.
+![Database - Tabel Mahasiswa](img/11.png)
 
 ---
 
